@@ -1,0 +1,507 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+header{
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    background-color: white;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 5px 5px 0px;    
+}
+
+header .logo{
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+header .menuitems{
+    margin: 25px 5px 0px;
+}
+
+header .menuitems ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E266D;
+}
+
+header .navbarbuttons{
+    padding: 10px 2px;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 20px 0px;
+}
+
+.login-button{
+    color: white;
+    background-color: #1E266D;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.login-button:hover{
+    color: white;
+    background-color: #00AEEF;
+    padding: 10px;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 110px;
+}
+
+.introbannerleft{
+    flex-basis: 40%;
+    
+}
+
+.introbannerleft h2{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #1E266D;
+    padding-bottom: 20px;
+}
+
+.introbannerleft h4{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #1E266D;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+
+.introbannerleft .viewcourses-button{
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    background-color: #2e367d;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.introbannerright{
+    flex-basis: 60%;
+    
+}
+
+
+.threepart .features{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    color: white;
+    
+}
+
+.featurebox1{
+    background-color: #F9799A;
+    display: flex;
+    flex-basis: 33.33%;
+    padding: 45px;
+    margin: 0px 15px;
+    border-radius: 10px;
+}
+
+.featurebox2{
+    background-color: #61C4D8;
+    display: flex;
+    flex-basis: 33.33%;
+    padding: 45px;
+    margin: 0px 15px;
+    border-radius: 10px;
+}
+
+.featurebox3{
+    background-color: #1E266D;
+    display: flex;
+    flex-basis: 33.33%;
+    padding: 45px;
+    margin: 0px 15px;
+    border-radius: 10px;
+}
+
+.icons{
+    font-size: 25px;
+    flex-basis: 15%;
+}
+
+.content{
+    
+    flex-basis: 85%;
+}
+
+.content h4{
+    font-size: large;
+}
+
+.content p{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.projects .boxleft{
+    flex-basis: 40%;
+    
+}
+
+.projects .boxleft h2{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #1E266D;
+    padding-bottom: 20px;
+}
+
+.projects .boxleft h3{
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #1E266D;
+    padding-bottom: 20px;
+}
+
+.projects .boxleft h4{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #1E266D;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+
+.projects .boxleft .viewcourses-button{
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    background-color: #2e367d;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.projects .boxright{
+    flex-basis: 60%;
+    
+}
+
+.servicebox{
+    background-color: #F5F7FA;
+    padding: 40px 0px;
+}
+
+.services01{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.services01 .boxleft{
+    flex-basis: 40%;
+    
+}
+
+.services01 .boxleft h2{
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    color: #1E266D;
+    padding-bottom: 20px;
+}
+
+.services01 .boxleft h3{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 300;
+    color: #1E266D;
+    padding-bottom: 20px;
+}
+
+.services01 .boxleft h4{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #1E266D;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+
+.services01 .boxleft .viewcourses-button{
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    background-color: #2e367d;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.services01 .boxright{
+    flex-basis: 60%;
+    
+}
+
+.services02{
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.services02 .boxleft{
+    flex-basis: 40%;
+    
+}
+
+.services02 .boxleft h2{
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    color: #1E266D;
+    padding-bottom: 20px;
+}
+
+.services02 .boxleft h3{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 300;
+    color: #1E266D;
+    padding-bottom: 20px;
+}
+
+.services02 .boxleft h4{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #1E266D;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+
+.services02 .boxleft .viewcourses-button{
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    background-color: #2e367d;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.services02 .boxright{
+    flex-basis: 60%;
+    
+}
+
+.services03{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.services03 .boxleft{
+    flex-basis: 40%;
+    
+}
+
+.services03 .boxleft h2{
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    color: #1E266D;
+    padding-bottom: 20px;
+}
+
+.services03 .boxleft h3{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 300;
+    color: #1E266D;
+    padding-bottom: 20px;
+}
+
+.services03 .boxleft h4{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #1E266D;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+
+.services03 .boxleft .viewcourses-button{
+    font-size: 18px;
+    line-height: 2;
+    color: white;
+    background-color: #2e367d;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.services03 .boxright{
+    flex-basis: 60%;
+    margin: 0px 100px;
+    
+}
+
+.addressbox{
+    width: 100%;
+    background-color: #2e367d;
+    padding: 80px 0px;
+    border-radius: 10px;
+
+}
+
+.address{
+    display: flex;
+    justify-content: space-around;
+    align-items: first baseline;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.address h4{
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.address p{
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.connectionbox{
+    width: 100%;
+    display: flex;
+    align-items: first baseline;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.connectionbox h6{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E266D;
+    
+}
+
+.connectionbox p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E266D;
+}
+
+.connectionbox li{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E266D;
+    list-style: none;
+}
+
+.connectionbox a{
+    text-decoration: none;
+    color: #3D4486;
+}
+
+.connectionbox01{
+    flex-basis: 25%;
+    margin: 0px 10px;
+    color: #91A3BB;
+    padding: 0px 15px;
+}
+
+.connectionbox02{
+    flex-basis: 25%;
+    margin: 0px 10px;
+    color: #91A3BB;
+    padding: 0px 15px;
+
+}
+
+.connectionbox03{
+    flex-basis: 25%;
+    margin: 0px 10px;
+    color: #91A3BB;
+    padding: 0px 15px;
+
+}
+
+.connectionbox04{
+    flex-basis: 25%;
+    margin: 0px 10px;
+    color: #91A3BB;
+    padding: 0px 15px;
+
+}
+
+.footerbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.footerbox .copyright p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 15px;
+    color: #91A3BB;
+
+}
